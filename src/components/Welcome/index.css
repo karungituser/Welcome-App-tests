@@ -1,0 +1,45 @@
+/* Write your CSS here */
+
+.welcome-container {
+  background-color: #1e293b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+}
+
+.heading {
+  font-family: 'Bree Serif';
+  font-size: 50px;
+  color: #f0bb03;
+  font-weight: 700px;
+}
+.quote {
+  font-family: 'Bree Serif';
+  font-size: 28px;
+  color: #ffffff;
+  font-weight: 600px;
+}
+.button {
+  width: 100px;
+  height: 40px;
+  background-color: #ffffff;
+  color: #1e293b;
+  font-size: 12px;
+  border-radius: 7px;
+  border-width: 0px;
+  font-weight: 700;
+}
+@media screen and (min-width: 768px) {
+  .welcome-container {
+    width: 70%;
+  }
+  .heading {
+    font-size: 100px;
+  }
+  .quote {
+    font-size: 32px;
+  }
+}
